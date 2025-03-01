@@ -42,7 +42,7 @@
 
 支持开启 http 和 socks5 代理协议，可以选择有密码还是无密码的方式提供服务。
 ```
-🌐工具获取地址：[https://github.com/hicode0101/HiLocalProxy](https://github.com/hicode0101/HiLocalProxy) 
+🌐工具获取地址：**与上面 HiLocalProxy 共用一个仓库地址，源码在不同目录下。**
     
 
 ---
