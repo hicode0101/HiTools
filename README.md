@@ -1,9 +1,12 @@
 # HiTools
 
-Hi系列工具，专为白帽师傅们打造！
+**Hi系列工具，专为白帽师傅们打造！**
 
+  
 
-# HiDnsLog
+  
+
+### HiDnsLog
 
 ```
 一个可查询和管理DNS解析记录的工具，支持DNSlog 私有化部署，即使用自己的域名。
@@ -14,31 +17,39 @@ Hi系列工具，专为白帽师傅们打造！
 
 支持域名解析自动二次绑定（绕过一些检测）。
 
+支持DNSlog 私有化部署，即使用自己的域名。
 
 ```
-[https://github.com/hicode0101/HiDnsLog](https://github.com/hicode0101/HiDnsLog){:target="_blank"}
+🌐工具获取地址：[https://github.com/hicode0101/HiDnsLog](https://github.com/hicode0101/HiDnsLog)
+  
+---
+  
 
-
-
-# HiProxy（Chrome代理设置插件）
+### HiProxy（Chrome代理设置插件）
 
 ```
 
 https://github.com/hicode0101/HiProxy
 ```
+🌐工具获取地址：[https://github.com/hicode0101/HiProxy](https://github.com/hicode0101/HiProxy)
 
+  
+---
+  
 
-# HiLocalProxy（本地代理）
+### HiLocalProxy（本地代理）
 
 ```
 将需要用户名密码验证的代理，转换为无用户名密码的代理，在本地直接使用。
 
 ```
+🌐工具获取地址：[https://github.com/hicode0101/HiLocalProxy](https://github.com/hicode0101/HiLocalProxy) 
     
-    
-    
+  
+---
+  
 
-# HiProxyServer（代理服务器）
+### HiProxyServer（代理服务器）
 
 ```
 
@@ -46,9 +57,13 @@ https://github.com/hicode0101/HiProxy
 
 支持开启 http 和 socks5 代理协议，可以选择有密码还是无密码的方式提供服务。
 ```
+🌐工具获取地址：[https://github.com/hicode0101/HiProxyServer](https://github.com/hicode0101/HiProxyServer) 
+  
 
+---
+  
 
-更多工具，在持续孵化中，将不定期公布，请关注我，或这个页面。
+更多工具，在持续孵化中，将不定期公布在这个页面，请持续关注。
 
 
 
