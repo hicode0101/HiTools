@@ -60,8 +60,8 @@
 
 支持开启 http 和 socks5 代理协议，可以选择有密码还是无密码的方式提供服务。
 ```
-🌐工具获取地址：[https://github.com/hicode0101/HiProxyServer](https://github.com/hicode0101/HiProxyServer) 
-  
+🌐工具获取地址：[https://github.com/hicode0101/HiLocalProxy](https://github.com/hicode0101/HiLocalProxy) 
+    
 
 ---
   
