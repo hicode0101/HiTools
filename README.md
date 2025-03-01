@@ -13,7 +13,7 @@
 
 基于谷歌扩展规范MV3开发。
 
-支持代理配置数据导入导出，方便师傅们分享自己的 HostPass 设置。
+支持代理配置数据导入导出，方便师傅们分享自己的 ByPassHost 设置。
 
 ```
 🌐工具获取地址：[https://github.com/hicode0101/HiProxy](https://github.com/hicode0101/HiProxy)
@@ -71,7 +71,7 @@
 
 ---
   
-  
+
 
 ## 作者申明
 
