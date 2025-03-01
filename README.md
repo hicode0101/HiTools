@@ -27,8 +27,12 @@
 ### HiProxy（Chrome代理设置插件）
 
 ```
+适用于所有Chrome内核浏览器的代理设置插件。
 
-https://github.com/hicode0101/HiProxy
+基于谷歌扩展规范MV3开发。
+
+支持代理配置数据导入导出，方便师傅们分享自己的 HostPass 设置。
+
 ```
 🌐工具获取地址：[https://github.com/hicode0101/HiProxy](https://github.com/hicode0101/HiProxy)
 
