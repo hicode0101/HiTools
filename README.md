@@ -17,7 +17,6 @@
 
 支持域名解析自动二次绑定（绕过一些检测）。
 
-支持DNSlog 私有化部署，即使用自己的域名。
 
 ```
 🌐工具获取地址：[https://github.com/hicode0101/HiDnsLog](https://github.com/hicode0101/HiDnsLog)
