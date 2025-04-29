@@ -59,6 +59,8 @@
 
 支持域名解析自动二次绑定（绕过一些检测）。
 
+支持 A记录、CNAME记录的重绑定，并且支持指定重绑定的解析结果顺序，一切尽在你的掌控中，无需大量随机碰撞。
+
 
 ```
 🌐工具获取地址（私有）：[https://github.com/hicode0101/HiDnsLog](https://github.com/hicode0101/HiDnsLog)
