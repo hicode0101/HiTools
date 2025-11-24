@@ -65,7 +65,7 @@
 
 
 ```
-🌐工具获取地址（私有）：[https://github.com/hicode0101/HiDnsLog](https://github.com/hicode0101/HiDnsLog)
+🌐工具获取地址（二进制）：[https://github.com/hicode0101/HiDnsLog-Release/releases](https://github.com/hicode0101/HiDnsLog-Release/releases)
   
 
 
