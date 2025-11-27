@@ -61,7 +61,7 @@
 
 支持 A记录、CNAME记录的重绑定，并且支持指定重绑定的解析顺序，一切尽在你的掌控中，无需大量随机碰撞。
 
-*支持SSRF跳转绕过测试，支持Burp Collaborator。
+*支持SSRF跳转绕过，支持Burp Collaborator。
 
 
 ```
