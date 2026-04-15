@@ -73,7 +73,8 @@
 
 ### HiDir
 ```
-HiDir 是一个用 Go 语言实现的目录扫描工具，类似于 dirsearch，用于发现网站上的隐藏文件和目录。它能够通过字典暴力破解的方式，快速扫描目标网站，找出可能存在的敏感文件和目录。
+HiDir 是一个用 Go 语言实现的目录扫描工具，类似于 dirsearch，用于发现网站上的隐藏文件和目录。
+它能够通过字典暴力破解的方式，快速扫描目标网站，找出可能存在的敏感文件和目录。
 
 ```
 🌐工具获取地址：[https://github.com/hicode0101/HiDir](https://github.com/hicode0101/HiDir) 
@@ -84,7 +85,8 @@ HiDir 是一个用 Go 语言实现的目录扫描工具，类似于 dirsearch，
 
 ### HiSecAgent
 ```
-HiSecAgent 是一个由 HiCyberServer 和 HiCyberMCP 组成的 AI 驱动网络安全自动化工具，专为渗透测试、漏洞评估和安全研究设计。它采用 Go 语言实现，集成了多个安全工具和智能决策引擎，能够提供全面的安全评估和漏洞发现能力。
+HiSecAgent 是一个由 HiCyberServer 和 HiCyberMCP 组成的 AI 驱动网络安全自动化工具，专为渗透测试、漏洞评估和安全研究设计。
+它采用 Go 语言实现，集成了多个安全工具和智能决策引擎，能够提供全面的安全评估和漏洞发现能力。
 
 ```
 🌐工具获取地址：[https://github.com/hicode0101/HiSecAgent](https://github.com/hicode0101/HiSecAgent) 
