@@ -98,6 +98,19 @@ HiSecAgent 是一个由 HiCyberServer 和 HiCyberMCP 组成的 AI 驱动网络�
 
 ---
   
+### HiEditor
+```
+HiEditor是一个轻量、快速、插件化的跨平台文本 / 代码编辑器，简洁的记事本风格界面，内置 15 门语言语法高亮与 JSON/XML 格式化，原生 C ABI 插件体系。
+
+```
+🌐工具获取地址：[https://github.com/hicode0101/HiEditor](https://github.com/hicode0101/HiEditor) 
+    
+
+  
+
+更多工具，在持续孵化中，将不定期公布在这个页面，请持续关注。
+
+---
 
 
 ## 作者申明
