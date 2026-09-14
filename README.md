@@ -25,6 +25,7 @@
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | 目录扫描 | Go 实现的类 dirsearch 目录扫描工具 |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI 安全智能体 | AI 驱动的自动化渗透测试与漏洞评估平台 |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | 代码编辑器 | 轻量、快速、插件化的跨平台编辑器 |
+| [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro) | 大文件编辑器 | 对标 EmEditor，GB 级文件毫秒级打开 |
 
 ---
 
@@ -112,6 +113,18 @@
 - 🧩 原生 **C ABI 插件体系**，跨平台可用
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditor)
+
+---
+
+## 🚀 HiEditor Pro — Windows 大文件编辑器
+
+> 对标 EmEditor，让 GB 级大文件的编辑像打开记事本一样轻松。
+
+- 🪟 专为 **Windows** 打造的大文件文本编辑器
+- ⚡ **GB 级文件毫秒级打开**，告别漫长加载等待
+- 🔍 **全文件搜索秒级完成**，大海捞针只在瞬息之间
+
+[![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditorPro)
 
 ---
 
