@@ -4,7 +4,7 @@
 
 **Hi 系列工具 · 专为白帽师傅们打造！**
 
-一系列面向白帽安全研究的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑，贴近实战、开箱即用。
+一系列面向白帽安全研究的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑。
 
 [![License](https://img.shields.io/badge/License-MIT-2EA043?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
