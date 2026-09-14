@@ -1,0 +1,27 @@
+# 精选亮点数据 —— 从工具矩阵中挑出三件主力装备重点展示
+
+- name: HiDnsLog
+  icon: 🌐
+  title: 解析规则，尽在掌控
+  points:
+    - DNSLog 私有化部署，使用自己的域名
+    - TTL 设为 0，白帽必备，主流域名服务商几乎都不支持
+    - A / CNAME 重绑定，可指定解析顺序，无需大量随机碰撞
+    - 支持 SSRF 跳转绕过，兼容 Burp Collaborator
+
+- name: HiSecAgent
+  icon: 🤖
+  title: AI 驱动安全自动化
+  points:
+    - HiCyberServer + HiCyberMCP 双组件架构
+    - 专为渗透测试、漏洞评估和安全研究设计
+    - Go 语言实现，集成多个安全工具
+    - 智能决策引擎，提供全面的安全评估与漏洞发现能力
+
+- name: HiEditor Pro
+  icon: 🚀
+  title: 大文件编辑利器
+  points:
+    - 对标 EmEditor 的 Windows 大文件文本编辑器
+    - GB 级文件毫秒级打开
+    - 全文件搜索秒级完成

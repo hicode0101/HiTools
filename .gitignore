@@ -1,0 +1,8 @@
+# Jekyll 构建产物（docs/ 目录由 GitHub Pages 自动构建部署）
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata/
+
+# 系统文件
+Thumbs.db
+.DS_Store

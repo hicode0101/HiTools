@@ -1,0 +1,49 @@
+# 工具矩阵数据 —— 新增 / 修改工具只需编辑此文件
+
+- name: HiProxy
+  icon: 🛡️
+  tag: Chrome 插件
+  desc: 适用于所有 Chrome 内核浏览器的代理设置插件，基于 MV3 规范开发，支持代理配置导入导出，方便分享 ByPassHost 设置。
+  url: https://github.com/hicode0101/HiProxy
+
+- name: HiLocalProxy
+  icon: 🔌
+  tag: 本地代理
+  desc: 将需要用户名密码验证的代理，转换为免认证的本地代理，在本地直接使用，告别繁琐的认证环节。
+  url: https://github.com/hicode0101/HiLocalProxy
+
+- name: HiProxyServer
+  icon: 🖥️
+  tag: 代理服务端
+  desc: 在服务器上架设一台自己的代理服务器，支持 HTTP 与 SOCKS5 协议，可自由选择有密码或无密码方式提供服务。
+  url: https://github.com/hicode0101/HiLocalProxy
+
+- name: HiDnsLog
+  icon: 🌐
+  tag: DNSLog 平台
+  desc: 可私有化部署的 DNSLog 平台，支持 TTL = 0、A / CNAME 重绑定与 SSRF 跳转绕过，兼容 Burp Collaborator。
+  url: https://github.com/hicode0101/HiDnsLog-Release/releases
+
+- name: HiDir
+  icon: 📂
+  tag: 目录扫描
+  desc: Go 语言实现的类 dirsearch 目录扫描工具，通过字典爆破快速发现网站隐藏文件、敏感文件与目录。
+  url: https://github.com/hicode0101/HiDir
+
+- name: HiSecAgent
+  icon: 🤖
+  tag: AI 安全智能体
+  desc: 由 HiCyberServer 与 HiCyberMCP 组成的 AI 驱动安全自动化平台，集成多个安全工具与智能决策引擎。
+  url: https://github.com/hicode0101/HiSecAgent
+
+- name: HiEditor
+  icon: ✏️
+  tag: 代码编辑器
+  desc: 轻量、快速、插件化的跨平台文本 / 代码编辑器，简洁记事本风格，内置 15 门语言语法高亮与 JSON / XML 格式化。
+  url: https://github.com/hicode0101/HiEditor
+
+- name: HiEditor Pro
+  icon: 🚀
+  tag: 大文件编辑器
+  desc: 对标 EmEditor 的 Windows 大文件文本编辑器，GB 级文件毫秒级打开，全文件搜索秒级完成。
+  url: https://github.com/hicode0101/HiEditorPro

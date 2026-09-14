@@ -1,1 +1,192 @@
-hi, welcome to HiTools.
+---
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} — {{ site.tagline }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.title }} — {{ site.tagline }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧰%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#top">{{ site.title }}<em>_</em></a>
+    <div class="nav-links">
+      <a href="#tools">工具矩阵</a>
+      <a href="#spotlight">主力装备</a>
+      <a href="#declare">作者申明</a>
+      <a href="#contact">联系作者</a>
+    </div>
+    <a class="nav-gh" href="{{ site.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow">OPEN SOURCE SECURITY TOOLKIT</p>
+    <h1>HiTools<span class="cursor">_</span></h1>
+    <p class="slogan">Hi 系列工具，<span class="hl">专为白帽师傅</span>们打造</p>
+    <p class="lede">{{ site.description }}由安全从业者开发，贴近实战、开箱即用。</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#tools">浏览工具矩阵 ↓</a>
+      <a class="btn btn-ghost" href="{{ site.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="num">{{ site.data.tools | size | prepend: '0' }}</div>
+        <div class="lbl">款实战工具</div>
+      </div>
+      <div class="stat">
+        <div class="num">MIT</div>
+        <div class="lbl">开源协议</div>
+      </div>
+      <div class="stat">
+        <div class="num">∞</div>
+        <div class="lbl">持续孵化中</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    {% for i in (1..2) %}
+      {% for tool in site.data.tools %}
+        <span><b>◆</b> {{ tool.name }} · {{ tool.tag }}</span>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+<section id="tools">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="idx">SEC.01 / TOOLKIT</span>
+      <h2>工具矩阵</h2>
+      <p>覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑的全场景安全工具集。</p>
+    </div>
+    <div class="grid-tools">
+      {% for tool in site.data.tools %}
+      <a class="tool-card reveal" href="{{ tool.url }}" target="_blank" rel="noopener" style="transition-delay: {{ forloop.index0 | times: 60 }}ms">
+        <div class="tool-top">
+          <span class="tool-icon">{{ tool.icon }}</span>
+          <span class="tool-no">{{ forloop.index | prepend: '0' }}</span>
+        </div>
+        <span class="tool-tag">{{ tool.tag }}</span>
+        <h3 class="tool-name">{{ tool.name }}</h3>
+        <p class="tool-desc">{{ tool.desc }}</p>
+        <span class="tool-go">获取工具</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="spotlight" id="spotlight">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="idx">SEC.02 / SPOTLIGHT</span>
+      <h2>主力装备</h2>
+      <p>三件最趁手的兵器，把掌控感还给白帽师傅。</p>
+    </div>
+    <div class="grid-spot">
+      {% for spot in site.data.spotlights %}
+      <div class="spot-card reveal" style="transition-delay: {{ forloop.index0 | times: 80 }}ms">
+        <span class="spot-ghost">{{ forloop.index | prepend: '0' }}</span>
+        <span class="spot-icon">{{ spot.icon }}</span>
+        <p class="spot-sub">{{ spot.name }}</p>
+        <h3>{{ spot.title }}</h3>
+        <ul>
+          {% for point in spot.points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="declare">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="idx">SEC.03 / NOTICE</span>
+      <h2>作者申明</h2>
+    </div>
+    <div class="declare-band reveal">
+      <span class="warn">⚠</span>
+      <div>
+        <h3>仅供安全研究</h3>
+        <p>本系列工具软件<b>仅供白帽子安全研究和技术交流使用，禁止用于商业用途</b>。请遵守当地法律法规，在授权范围内使用工具，共同维护良好的安全研究环境。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="idx">SEC.04 / CONTACT</span>
+      <h2>联系作者</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <ul class="contact-list">
+          <li><span class="k">AUTHOR</span><span class="v">{{ site.author_nick }}</span></li>
+          <li><span class="k">WECHAT</span><span class="v mono">{{ site.wechat_id }}</span></li>
+          <li><span class="k">OFFICIAL</span><span class="v">{{ site.official_account }}</span></li>
+        </ul>
+        <p class="contact-note">如果你在使用工具时遇到了问题，请联系我，我会及时回复；如果有其它功能需求，也请告知我，我非常乐意尝试满足。</p>
+      </div>
+      <div class="qr-row reveal">
+        <div class="qr-card">
+          <img src="{{ '/images/weixin.png' | relative_url }}" alt="微信二维码" loading="lazy">
+          <p class="t">📱 <b>我的微信</b></p>
+        </div>
+        <div class="qr-card">
+          <img src="{{ '/images/gzh.png' | relative_url }}" alt="微信公众号二维码" loading="lazy">
+          <p class="t">📢 <b>微信公众号</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <p>© <span id="year">2025</span> <b>{{ site.title }}</b> — MADE WITH ❤️ BY {{ site.author | upcase }}</p>
+    <div class="foot-links">
+      <a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://tools.hicode.top">tools.hicode.top</a>
+      <a href="#top">回到顶部 ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 导航滚动状态
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 24), { passive: true });
+
+  // 滚动进场
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
