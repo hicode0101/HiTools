@@ -10,6 +10,8 @@
 [![Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
 [![WeChat](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-hicode0101-07C160?logo=wechat&logoColor=white)](#-联系作者)
 
+中文 ✦ [English](README.en.md)
+
 </div>
 
 ---
@@ -19,6 +21,7 @@
 | 工具 | 类型 | 简介 |
 |:---|:---|:---|
 | [🛡️ **HiProxy**](https://github.com/hicode0101/HiProxy) | Chrome 插件 | 适用于所有 Chrome 内核浏览器的代理设置插件 |
+| [🎭 **HiModify**](https://github.com/hicode0101/HiModify) | Chrome 插件 | 请求头修改与 API Mock 的 Chrome 扩展（MV3） |
 | [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | 本地代理 | 带用户名密码的代理 → 本地免认证代理 |
 | [🖥️ **HiProxyServer**](https://github.com/hicode0101/HiLocalProxy) | 代理服务端 | 自建 HTTP / SOCKS5 代理服务器 |
 | [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release/releases) | DNSLog 平台 | 可私有化部署，支持重绑定与 SSRF 绕过 |
@@ -38,6 +41,19 @@
 - 📤 支持**代理配置数据导入导出**，方便师傅们分享自己的 ByPassHost 设置
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiProxy)
+
+---
+
+## 🎭 HiModify — 请求修改与 API Mock 插件
+
+> 改写请求头、模拟接口响应，请求调试尽在指尖。
+
+- 🧩 基于**谷歌扩展规范 MV3** 开发，适用于所有 Chrome 内核浏览器
+- 📝 按域名 / URL 规则**增删改请求头与响应头**，规则可独立开关
+- 🎭 拦截 XHR / Fetch 请求，自定义状态码、响应体与延迟，实现 **API Mock / 重放**，支持录制真实流量
+- 📤 支持规则配置 **JSON 导入导出**，方便备份与团队共享
+
+[![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiModify)
 
 ---
 
