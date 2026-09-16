@@ -6,6 +6,12 @@
   desc: 适用于所有 Chrome 内核浏览器的代理设置插件，基于 MV3 规范开发，支持代理配置导入导出，方便分享 ByPassHost 设置。
   url: https://github.com/hicode0101/HiProxy
 
+- name: HiModify
+  icon: 🎭
+  tag: Chrome 插件
+  desc: 基于 MV3 规范的 Chrome 扩展，按规则增删改请求头与响应头，拦截 XHR / Fetch 实现 API Mock 与重放，支持录制真实流量和规则导入导出。
+  url: https://github.com/hicode0101/HiModify
+
 - name: HiLocalProxy
   icon: 🔌
   tag: 本地代理

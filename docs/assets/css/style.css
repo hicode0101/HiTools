@@ -332,8 +332,8 @@ section { padding: 110px 0; }
 
 .grid-tools {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
 }
 
 .tool-card {
@@ -344,7 +344,7 @@ section { padding: 110px 0; }
   background: linear-gradient(160deg, var(--panel), var(--panel-2));
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: 24px 22px 22px;
+  padding: 28px 26px 24px;
   overflow: hidden;
   transition: transform 0.35s var(--ease), border-color 0.35s, box-shadow 0.35s;
 }
