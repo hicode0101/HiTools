@@ -109,10 +109,11 @@ A collection of battle-tested tools for white-hat security research — proxy co
 
 ## ✏️ HiEditor — Cross-Platform Text / Code Editor
 
-> Lightweight, fast and plugin-based, with a clean notepad feel.
+> A single tool that meets all the editing and reading needs of a white-hat hacker for the entire day.
 
 - 🪶 **Lightweight and fast**, with a minimalist notepad-style UI
 - 🌈 Syntax highlighting for **15 languages** plus **JSON / XML formatting**
+- 🔍 Supports Markdown editing and previewing, PDF reading, and other common formats.
 - 🧩 Native **C ABI plugin system**, cross-platform
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-GitHub_Repo-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditor)

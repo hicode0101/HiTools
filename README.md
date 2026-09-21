@@ -84,11 +84,11 @@
 
 ## 📂 HiDir — 目录扫描工具
 
-> Go 语言打造的目录扫描利器，快速发现网站隐藏路径。
+> Go 语言打造的目录扫描利器，快速发现企业潜在安全问题。
 
 - ⚙️ 使用 **Go 语言**实现，类似 dirsearch
-- 🕵️ 通过**字典暴力破解**的方式，快速扫描目标网站
-- 🔎 高效找出可能存在的**隐藏文件、敏感文件和目录**
+- 🕵️ 通过多字典快速扫描目标网站，发现企业潜在的安全问题
+- 🔎 帮企业高效找出可能泄漏的**隐藏文件、敏感文件和目录**
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiDir)
 
@@ -109,10 +109,11 @@
 
 ## ✏️ HiEditor — 跨平台文本 / 代码编辑器
 
-> 轻量、快速、插件化，简洁的记事本风格。
+> 一个工具解决白帽师傅一天所有的编辑和阅读需求。
 
 - 🪶 **轻量、快速**，简洁的记事本风格界面
 - 🌈 内置 **15 门语言语法高亮**与 **JSON / XML 格式化**
+- 🔍 支持Markdown编辑和预览、PDF阅读等常用格式
 - 🧩 原生 **C ABI 插件体系**，跨平台可用
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditor)
