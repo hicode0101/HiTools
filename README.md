@@ -22,8 +22,7 @@
 |:---|:---|:---|
 | [🛡️ **HiProxy**](https://github.com/hicode0101/HiProxy) | Chrome 插件 | 适用于所有 Chrome 内核浏览器的代理设置插件 |
 | [🎭 **HiModify**](https://github.com/hicode0101/HiModify) | Chrome 插件 | 请求头修改与 API Mock 的 Chrome 扩展（MV3） |
-| [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | 本地代理 | 带用户名密码的代理 → 本地免认证代理 |
-| [🖥️ **HiProxyServer**](https://github.com/hicode0101/HiLocalProxy) | 代理服务端 | 自建 HTTP / SOCKS5 代理服务器 |
+| [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | 本地代理 | 把需用户名密码的代理 → 转本地免密代理 |
 | [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release/releases) | DNSLog 平台 | 可私有化部署，支持重绑定与 SSRF 绕过 |
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | 目录扫描 | Go 实现的类 dirsearch 目录扫描工具 |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI 安全智能体 | AI 驱动的自动化渗透测试与漏洞评估平台 |
@@ -38,7 +37,7 @@
 
 - 🌍 适用于**所有 Chrome 内核浏览器**
 - 🧩 基于谷歌扩展规范 **MV3** 开发
-- 📤 支持**代理配置数据导入导出**，方便师傅们分享自己的 ByPassHost 设置
+- 📤 支持**代理配置数据导入导出**，方便白帽子师傅们分享自己的 ByPassHost 设置
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiProxy)
 
@@ -63,18 +62,6 @@
 
 - 🔐 将需要**用户名密码验证**的代理，转换为**无用户名密码**的代理
 - 💻 在本地直接使用，无需再处理繁琐的认证环节
-
-[![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiLocalProxy)
-
----
-
-## 🖥️ HiProxyServer — 代理服务器
-
-> 几分钟架起一台属于自己的代理服务器。
-
-- 🌐 支持 **HTTP** 和 **SOCKS5** 两种代理协议
-- 🔑 可自由选择**有密码**或**无密码**方式提供服务
-- 📦 与 HiLocalProxy 共用一个仓库，源码在不同目录下
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-GitHub%E4%BB%93%E5%BA%93-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiLocalProxy)
 

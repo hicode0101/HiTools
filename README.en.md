@@ -23,7 +23,6 @@ A collection of battle-tested tools for white-hat security research — proxy co
 | [🛡️ **HiProxy**](https://github.com/hicode0101/HiProxy) | Chrome Extension | Proxy switcher for all Chromium-based browsers |
 | [🎭 **HiModify**](https://github.com/hicode0101/HiModify) | Chrome Extension | Request header modifier & API mocker (MV3) |
 | [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | Local Proxy | Authenticated proxy → credential-free local proxy |
-| [🖥️ **HiProxyServer**](https://github.com/hicode0101/HiLocalProxy) | Proxy Server | Self-hosted HTTP / SOCKS5 proxy server |
 | [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release/releases) | DNSLog Platform | Self-hostable, with rebinding & SSRF bypass |
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | Directory Scanner | dirsearch-like directory scanner in Go |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI Security Agent | AI-driven automated pentest & vulnerability assessment |
@@ -63,18 +62,6 @@ A collection of battle-tested tools for white-hat security research — proxy co
 
 - 🔐 Converts a proxy requiring **username / password auth** into a **credential-free** proxy
 - 💻 Use it locally without the hassle of authentication
-
-[![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-GitHub_Repo-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiLocalProxy)
-
----
-
-## 🖥️ HiProxyServer — Proxy Server
-
-> Stand up your own proxy server in minutes.
-
-- 🌐 Supports both **HTTP** and **SOCKS5** protocols
-- 🔑 Serve with or without **authentication** — your choice
-- 📦 Shares one repository with HiLocalProxy (source in separate directories)
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-GitHub_Repo-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiLocalProxy)
 
