@@ -2,9 +2,9 @@
 
 # 🧰 HiTools
 
-**Hi 系列工具 · 专为白帽师傅们打造！**
+**Hi 系列工具 · 工程师自己的工具！**
 
-一系列面向白帽安全研究的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑。
+一系列面向工程师们的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑。
 
 [![License](https://img.shields.io/badge/License-MIT-2EA043?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
@@ -138,21 +138,20 @@
 
 ## ⚠️ 作者申明
 
-> 本系列工具软件**仅供白帽子安全研究和技术交流使用，禁止用于商业用途**。
+> 本系列工具软件**仅供工程师们研究和技术交流使用，禁止用于商业用途**。
 
 ## 💬 联系作者
 
-- 👨‍💻 白帽昵称：**犀利的远哥**
+- 👨‍💻 昵称：**犀利的远哥**
 - ✉️ 微信：`hicode0101`
-- 💞 微信公众号：**远哥说安全**
 
 遇到问题请随时联系我，我会及时回复；对工具功能有新的想法和需求，也请告知我，我非常乐意尝试满足。
 
 <div align="center">
 
-| 📱 我的微信 | 📢 微信公众号 |
-|:---:|:---:|
-| <img src="images/weixin.png" width="200" /> | <img src="images/gzh.png" width="280" /> |
+| 📱 我的微信 |
+|:---:|
+| <img src="images/weixin.png" width="200" /> |
 
 </div>
 
