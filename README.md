@@ -23,12 +23,12 @@
 | [🛡️ **HiProxy**](https://github.com/hicode0101/HiProxy) | Chrome 插件 | 适用于所有 Chrome 内核浏览器的代理设置插件 |
 | [🎭 **HiModify**](https://github.com/hicode0101/HiModify) | Chrome 插件 | 请求头修改与 API Mock 的 Chrome 扩展（MV3） |
 | [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | 本地代理 | 把需用户名密码的代理 → 转本地免密代理 |
-| [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release/releases) | DNSLog 平台 | 可私有化部署，支持重绑定与 SSRF 绕过 |
+| [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release) | DNSLog 平台 | 可私有化部署，支持重绑定与 SSRF 绕过 |
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | 目录扫描 | Go 实现的类 dirsearch 目录扫描工具 |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI 安全智能体 | AI 驱动的自动化渗透测试与漏洞评估平台 |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | 代码编辑器 | 轻量、快速、插件化的跨平台编辑器 |
 | [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | 大文件编辑器 | 对标 EmEditor，GB 级文件毫秒级打开 |
-| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release/releases) | SSH 终端 | 跨平台 SSH 终端与 SFTP 管理，完美替代 Xshell / Tabby |
+| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release) | SSH 终端 | 跨平台 SSH 终端与 SFTP 管理，完美替代 Xshell / Tabby |
 
 ---
 

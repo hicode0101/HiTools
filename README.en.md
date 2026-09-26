@@ -23,12 +23,12 @@ A collection of battle-tested tools for white-hat security research — proxy co
 | [🛡️ **HiProxy**](https://github.com/hicode0101/HiProxy) | Chrome Extension | Proxy switcher for all Chromium-based browsers |
 | [🎭 **HiModify**](https://github.com/hicode0101/HiModify) | Chrome Extension | Request header modifier & API mocker (MV3) |
 | [🔌 **HiLocalProxy**](https://github.com/hicode0101/HiLocalProxy) | Local Proxy | Authenticated proxy → credential-free local proxy |
-| [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release/releases) | DNSLog Platform | Self-hostable, with rebinding & SSRF bypass |
+| [🌐 **HiDnsLog**](https://github.com/hicode0101/HiDnsLog-Release) | DNSLog Platform | Self-hostable, with rebinding & SSRF bypass |
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | Directory Scanner | dirsearch-like directory scanner in Go |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI Security Agent | AI-driven automated pentest & vulnerability assessment |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | Code Editor | Lightweight, fast, plugin-based, cross-platform |
 | [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | Large-File Editor | EmEditor-class for Windows; opens GB-scale files in milliseconds |
-| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release/releases) | SSH Terminal | Cross-platform SSH terminal & SFTP manager — a great Xshell / Tabby alternative |
+| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release) | SSH Terminal | Cross-platform SSH terminal & SFTP manager — a great Xshell / Tabby alternative |
 
 ---
 
