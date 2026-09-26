@@ -4,7 +4,7 @@
 
 **Hi 系列工具 · 工程师自己的工具！**
 
-一系列面向工程师们的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透与代码编辑。
+一系列面向工程师们的实战工具合集，覆盖代理配置、DNSLog、目录扫描、AI 自动化渗透、代码编辑与 SSH 终端。
 
 [![License](https://img.shields.io/badge/License-MIT-2EA043?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
@@ -28,6 +28,7 @@
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI 安全智能体 | AI 驱动的自动化渗透测试与漏洞评估平台 |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | 代码编辑器 | 轻量、快速、插件化的跨平台编辑器 |
 | [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | 大文件编辑器 | 对标 EmEditor，GB 级文件毫秒级打开 |
+| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release/releases) | SSH 终端 | 跨平台 SSH 终端与 SFTP 管理，完美替代 Xshell / Tabby |
 
 ---
 
@@ -129,6 +130,20 @@
 - 🔍 **全文件搜索秒级完成**，大海捞针只在瞬息之间
 
 [![Release](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%8B%E8%BD%BD-F0883E?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditorPro-Release/releases)
+
+---
+
+## 🖥️ HiShell — SSH 终端工具
+
+> 一款工程师爱用的 SSH 终端，完美替代 XShell 和 Tabby。
+
+- 🖥️ 支持 **Windows 10+ / macOS / Linux** 跨平台桌面环境
+- 🗂️ **多标签 SSH 终端** + **SFTP 文件管理**，双栏视图与传输队列，传输进度 / 速度 / 剩余时间一目了然
+- 🔑 内置**密钥管理**，支持生成与导入导出 **RSA / ECDSA / ED25519** 密钥（含 **PuTTY ppk** 格式）
+- 🔀 支持**本地 / 远程 / 动态（SOCKS5）三种 SSH 端口转发**
+- 🌍 界面支持**中英双语**，会话管理器可拖拽排序、复制与快速连接
+
+[![Release](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%8B%E8%BD%BD-F0883E?logo=github&logoColor=white)](https://github.com/hicode0101/HiShell-Release/releases)
 
 ---
 

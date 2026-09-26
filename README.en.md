@@ -4,7 +4,7 @@
 
 **Hi Series Tools · Built for White-Hat Security Researchers!**
 
-A collection of battle-tested tools for white-hat security research — proxy configuration, DNSLog, directory scanning, AI-driven pentest automation, and code editing.
+A collection of battle-tested tools for white-hat security research — proxy configuration, DNSLog, directory scanning, AI-driven pentest automation, code editing, and SSH terminal.
 
 [![License](https://img.shields.io/badge/License-MIT-2EA043?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Website](https://img.shields.io/badge/Website-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
@@ -28,6 +28,7 @@ A collection of battle-tested tools for white-hat security research — proxy co
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI Security Agent | AI-driven automated pentest & vulnerability assessment |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | Code Editor | Lightweight, fast, plugin-based, cross-platform |
 | [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | Large-File Editor | EmEditor-class for Windows; opens GB-scale files in milliseconds |
+| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release/releases) | SSH Terminal | Cross-platform SSH terminal & SFTP manager — a great Xshell / Tabby alternative |
 
 ---
 
@@ -129,6 +130,20 @@ A collection of battle-tested tools for white-hat security research — proxy co
 - 🔍 **Whole-file search in seconds** — finding a needle in a haystack, instantly
 
 [![Release](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-Binary_Download-F0883E?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditorPro-Release/releases)
+
+---
+
+## 🖥️ HiShell — SSH Terminal
+
+> An engineer-friendly SSH terminal — a perfect replacement for XShell and Tabby.
+
+- 🖥️ Cross-platform, running on **Windows 10+ / macOS / Linux** desktops
+- 🗂️ **Multi-tab SSH terminal** + **SFTP file manager**, with a dual-pane view and transfer queue showing progress, speed and ETA
+- 🔑 Built-in **key management** — generate and import/export **RSA / ECDSA / ED25519** keys (incl. **PuTTY ppk** format)
+- 🔀 **Local / remote / dynamic (SOCKS5)** SSH port forwarding
+- 🌍 **Chinese & English** UI, with a session manager supporting drag-to-sort, duplication and quick connect
+
+[![Release](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-Binary_Download-F0883E?logo=github&logoColor=white)](https://github.com/hicode0101/HiShell-Release/releases)
 
 ---
 
