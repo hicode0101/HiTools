@@ -3,7 +3,7 @@
 
 title: HiTools
 tagline: Hi 系列工具 · 专为白帽师傅们打造
-description: 面向白帽安全研究的实战工具合集 —— 代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透与代码编辑。
+description: 面向白帽安全研究的实战工具合集 —— 代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透、代码编辑与 SSH 终端。
 url: https://tools.hicode.top
 baseurl: ""
 lang: zh-CN

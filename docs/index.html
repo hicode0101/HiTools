@@ -44,7 +44,7 @@
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="num">{{ site.data.tools | size | prepend: '0' }}</div>
+        <div class="num">{{ site.data.tools | size | prepend: '0' | slice: -2, 2 }}</div>
         <div class="lbl">款实战工具</div>
       </div>
       <div class="stat">
@@ -74,14 +74,14 @@
     <div class="sec-head reveal">
       <span class="idx">SEC.01 / TOOLKIT</span>
       <h2>工具矩阵</h2>
-      <p>覆盖代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透与代码编辑的全场景安全工具集。</p>
+      <p>覆盖代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透、代码编辑与 SSH 终端的全场景安全工具集。</p>
     </div>
     <div class="grid-tools">
       {% for tool in site.data.tools %}
       <a class="tool-card reveal" href="{{ tool.url }}" target="_blank" rel="noopener" style="transition-delay: {{ forloop.index0 | times: 60 }}ms">
         <div class="tool-top">
           <span class="tool-icon">{{ tool.icon }}</span>
-          <span class="tool-no">{{ forloop.index | prepend: '0' }}</span>
+          <span class="tool-no">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
         </div>
         <span class="tool-tag">{{ tool.tag }}</span>
         <h3 class="tool-name">{{ tool.name }}</h3>

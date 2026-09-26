@@ -18,7 +18,7 @@ docs/
 
 ## 本地开发
 
-环境要求：Ruby 3.4+（本机已安装于 `C:\Ruby34-x64`，含 Jekyll 4.4）。
+环境要求：Ruby 3.4+（本机已安装 **Ruby 3.4.11** 于 `C:\Ruby34-x64`，含 Jekyll 4.4.1，已加入用户 PATH）。
 
 ```bash
 cd docs
@@ -31,8 +31,8 @@ jekyll build
 ```
 
 > 注意：
-> - 本机网络下 gem 安装需走代理，如重装依赖请先设置 `HTTP_PROXY` / `HTTPS_PROXY`（如 `http://127.0.0.1:7891`）。
-> - 本机 Jekyll 未安装 `em-websocket`（该依赖仅在 `jekyll serve --livereload` 时使用，需 MSYS2 编译环境），`jekyll serve` 默认不开 livereload，不影响构建与部署；如需 livereload，运行 `ridk install 3` 安装 MSYS2 后 `gem install em-websocket` 即可。
+> - 本机网络下 gem 安装需走代理，如重装依赖请先设置 `HTTP_PROXY` / `HTTPS_PROXY`（如 `http://127.0.0.1:7891`，本机代理为混合端口，同时接受 HTTP 与 SOCKS5）。
+> - 全部依赖（含需原生编译的 `eventmachine` / `http_parser.rb` / `em-websocket`）已安装成功，`jekyll serve --livereload` 可直接使用。
 
 ## 新增工具
 

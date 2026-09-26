@@ -53,3 +53,9 @@
   tag: 大文件编辑器
   desc: 对标 EmEditor 的 Windows 大文件文本编辑器，GB 级文件毫秒级打开，全文件搜索秒级完成。
   url: https://github.com/hicode0101/HiEditorPro-Release
+
+- name: HiShell
+  icon: 🖥️
+  tag: SSH 终端
+  desc: 工程师爱用的跨平台 SSH 终端，完美替代 Xshell / Tabby，多标签终端 + SFTP 文件管理，内置密钥管理与三种端口转发。
+  url: https://github.com/hicode0101/HiShell-Release/releases
