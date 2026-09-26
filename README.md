@@ -30,6 +30,9 @@
 | [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | 大文件编辑器 | 对标 EmEditor，GB 级文件毫秒级打开 |
 | [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release) | SSH 终端 | 跨平台 SSH 终端与 SFTP 管理，完美替代 Xshell / Tabby |
 
+
+> 以上工具均**永久免费**，采用逐步开源的方式，目前已有部分工具开放源码。
+
 ---
 
 ## 🛡️ HiProxy — Chrome 代理设置插件
