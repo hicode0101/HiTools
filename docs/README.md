@@ -11,7 +11,7 @@ docs/
 │   ├── tools.yml        # 工具矩阵数据 —— 新增/修改工具只需编辑此文件
 │   └── spotlights.yml   # 「主力装备」精选亮点数据
 ├── assets/css/style.css # 全站样式
-├── images/              # 微信二维码
+├── images/              # 微信 / Email 二维码
 ├── index.html           # 单页模板（Liquid）
 └── CNAME                # 自定义域名
 ```

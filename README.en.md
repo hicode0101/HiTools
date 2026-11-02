@@ -167,9 +167,18 @@ If you run into any issues with the tools, feel free to reach out — I reply pr
 
 <div align="center">
 
-| 📱 WeChat |
-|:---:|
-| <img src="images/weixin.png" width="200" /> |
+<table>
+  <tr>
+    <th>📱 WeChat</th>
+    <th width="80"></th>
+    <th>📧 Email</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/weixin.png" width="200" /></td>
+    <td></td>
+    <td align="center"><img src="images/email.png" width="200" /></td>
+  </tr>
+</table>
 
 </div>
 

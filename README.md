@@ -167,9 +167,18 @@
 
 <div align="center">
 
-| 📱 我的微信 |
-|:---:|
-| <img src="images/weixin.png" width="200" /> |
+<table>
+  <tr>
+    <th>📱 我的微信</th>
+    <th width="80"></th>
+    <th>📧 邮箱</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/weixin.png" width="200" /></td>
+    <td></td>
+    <td align="center"><img src="images/email.png" width="200" /></td>
+  </tr>
+</table>
 
 </div>
 

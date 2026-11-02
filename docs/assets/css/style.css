@@ -584,7 +584,7 @@ section { padding: 110px 0; }
 
 .qr-row {
   display: flex;
-  gap: 18px;
+  gap: 48px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -592,7 +592,7 @@ section { padding: 110px 0; }
 .qr-card {
   flex: 1;
   min-width: 190px;
-  max-width: 300px;
+  max-width: 240px;
   text-align: center;
   border: 1px solid var(--line);
   border-radius: 14px;
