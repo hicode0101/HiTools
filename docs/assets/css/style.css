@@ -582,11 +582,17 @@ section { padding: 110px 0; }
 
 .contact-note { color: var(--muted); font-size: 14.5px; max-width: 480px; }
 
-.qr-row { display: flex; gap: 18px; flex-wrap: wrap; }
+.qr-row {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .qr-card {
   flex: 1;
   min-width: 190px;
+  max-width: 300px;
   text-align: center;
   border: 1px solid var(--line);
   border-radius: 14px;

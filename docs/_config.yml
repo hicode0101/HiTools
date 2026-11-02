@@ -2,8 +2,8 @@
 # GitHub Pages 从 docs/ 目录构建部署
 
 title: HiTools
-tagline: Hi 系列工具 · 专为白帽师傅们打造
-description: 面向白帽安全研究的实战工具合集 —— 代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透、代码编辑与 SSH 终端。
+tagline: Hi 系列工具 · 工程师自己的工具
+description: 面向工程师们的实战工具合集 —— 代理配置、请求调试、DNSLog、目录扫描、AI 自动化渗透、代码编辑与 SSH 终端。
 url: https://tools.hicode.top
 baseurl: ""
 lang: zh-CN
@@ -12,7 +12,6 @@ author: hicode0101
 github: https://github.com/hicode0101
 wechat_id: hicode0101
 author_nick: 犀利的远哥
-official_account: 远哥说安全
 
 # GitHub Pages 不支持自定义插件，仅使用标准 Liquid
 plugins: []

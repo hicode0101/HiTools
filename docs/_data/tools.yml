@@ -18,22 +18,16 @@
   desc: 将需要用户名密码验证的代理，转换为免认证的本地代理，在本地直接使用，告别繁琐的认证环节。
   url: https://github.com/hicode0101/HiLocalProxy
 
-- name: HiProxyServer
-  icon: 🖥️
-  tag: 代理服务端
-  desc: 在服务器上架设一台自己的代理服务器，支持 HTTP 与 SOCKS5 协议，可自由选择有密码或无密码方式提供服务。
-  url: https://github.com/hicode0101/HiLocalProxy
-
 - name: HiDnsLog
   icon: 🌐
   tag: DNSLog 平台
   desc: 可私有化部署的 DNSLog 平台，支持 TTL = 0、A / CNAME 重绑定与 SSRF 跳转绕过，兼容 Burp Collaborator。
-  url: https://github.com/hicode0101/HiDnsLog-Release/releases
+  url: https://github.com/hicode0101/HiDnsLog-Release
 
 - name: HiDir
   icon: 📂
   tag: 目录扫描
-  desc: Go 语言实现的类 dirsearch 目录扫描工具，通过字典爆破快速发现网站隐藏文件、敏感文件与目录。
+  desc: Go 语言实现的类 dirsearch 目录扫描工具，多字典快速扫描目标网站，帮企业发现可能泄漏的隐藏文件、敏感文件与目录。
   url: https://github.com/hicode0101/HiDir
 
 - name: HiSecAgent
@@ -45,14 +39,14 @@
 - name: HiEditor
   icon: ✏️
   tag: 代码编辑器
-  desc: 轻量、快速、插件化的跨平台文本 / 代码编辑器，简洁记事本风格，内置 15 门语言语法高亮与 JSON / XML 格式化。
+  desc: 轻量、快速、插件化的跨平台文本 / 代码编辑器，简洁记事本风格，内置 15 门语言语法高亮与 JSON / XML 格式化，支持 Markdown 编辑预览与 PDF 阅读。
   url: https://github.com/hicode0101/HiEditor
 
 - name: HiEditor Pro
   icon: 🚀
   tag: 大文件编辑器
   desc: 对标 EmEditor 的 Windows 大文件文本编辑器，GB 级文件毫秒级打开，全文件搜索秒级完成。
-  url: https://github.com/hicode0101/HiEditorPro-Release
+  url: https://github.com/hicode0101/HiEditorPro
 
 - name: HiShell
   icon: 🖥️

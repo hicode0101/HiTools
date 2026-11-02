@@ -1,4 +1,31 @@
-# 精选亮点数据 —— 从工具矩阵中挑出三件主力装备重点展示
+# 精选亮点数据 —— 从工具矩阵中挑出主力装备重点展示
+
+- name: HiShell
+  icon: 🖥️
+  title: 随身携带的 SSH 工作台
+  points:
+    - 跨平台支持 Windows 10+ / macOS / Linux
+    - 多标签 SSH 终端 + SFTP 双栏管理与传输队列
+    - RSA / ECDSA / ED25519 密钥管理（含 PuTTY ppk）
+    - 本地 / 远程 / 动态（SOCKS5）三种端口转发
+    - 中英双语界面，会话管理器拖拽排序、快速连接
+
+- name: HiProxy
+  icon: 🛡️
+  title: 顺手好用的代理管理
+  points:
+    - 适用于所有 Chrome 内核浏览器
+    - 基于谷歌扩展规范 MV3 开发
+    - 代理配置导入导出，方便分享 ByPassHost 设置
+
+- name: HiModify
+  icon: 🎭
+  title: 请求调试尽在指尖
+  points:
+    - 按域名 / URL 规则增删改请求头与响应头
+    - 拦截 XHR / Fetch，自定义状态码、响应体与延迟
+    - API Mock / 重放，支持录制真实流量
+    - 规则 JSON 导入导出，备份与团队共享
 
 - name: HiDnsLog
   icon: 🌐
@@ -9,16 +36,16 @@
     - A / CNAME 重绑定，可指定解析顺序，无需大量随机碰撞
     - 支持 SSRF 跳转绕过，兼容 Burp Collaborator
 
-- name: HiSecAgent
-  icon: 🤖
-  title: AI 驱动安全自动化
+- name: HiEditor
+  icon: ✏️
+  title: 一个工具搞定编辑与阅读
   points:
-    - HiCyberServer + HiCyberMCP 双组件架构
-    - 专为渗透测试、漏洞评估和安全研究设计
-    - Go 语言实现，集成多个安全工具
-    - 智能决策引擎，提供全面的安全评估与漏洞发现能力
+    - 轻量快速，简洁的记事本风格界面
+    - 15 门语言语法高亮 + JSON / XML 格式化
+    - Markdown 编辑预览、PDF 阅读
+    - 原生 C ABI 插件体系，跨平台可用
 
-- name: HiEditor Pro
+- name: HiEditorPro
   icon: 🚀
   title: 大文件编辑利器
   points:

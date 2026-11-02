@@ -2,9 +2,9 @@
 
 # 🧰 HiTools
 
-**Hi Series Tools · Built for White-Hat Security Researchers!**
+**Hi Series Tools · Engineers' Own Toolkit!**
 
-A collection of battle-tested tools for white-hat security research — proxy configuration, DNSLog, directory scanning, AI-driven pentest automation, code editing, and SSH terminal.
+A collection of battle-tested tools for engineers — proxy configuration, DNSLog, directory scanning, AI-driven pentest automation, code editing, and SSH terminal.
 
 [![License](https://img.shields.io/badge/License-MIT-2EA043?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Website](https://img.shields.io/badge/Website-tools.hicode.top-1F6FEB?logo=googlechrome&logoColor=white)](https://tools.hicode.top)
@@ -27,8 +27,11 @@ A collection of battle-tested tools for white-hat security research — proxy co
 | [📂 **HiDir**](https://github.com/hicode0101/HiDir) | Directory Scanner | dirsearch-like directory scanner in Go |
 | [🤖 **HiSecAgent**](https://github.com/hicode0101/HiSecAgent) | AI Security Agent | AI-driven automated pentest & vulnerability assessment |
 | [✏️ **HiEditor**](https://github.com/hicode0101/HiEditor) | Code Editor | Lightweight, fast, plugin-based, cross-platform |
-| [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro-Release) | Large-File Editor | EmEditor-class for Windows; opens GB-scale files in milliseconds |
-| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release) | SSH Terminal | Cross-platform SSH terminal & SFTP manager — a great Xshell / Tabby alternative |
+| [🚀 **HiEditor Pro**](https://github.com/hicode0101/HiEditorPro) | Large-File Editor | EmEditor-class for Windows; opens GB-scale files in milliseconds |
+| [🖥️ **HiShell**](https://github.com/hicode0101/HiShell-Release) | SSH Terminal | Cross-platform SSH terminal & SFTP manager — a perfect Xshell / Tabby replacement |
+
+
+> All tools above are **free forever** and being open-sourced progressively — some of them are already open source.
 
 ---
 
@@ -85,11 +88,11 @@ A collection of battle-tested tools for white-hat security research — proxy co
 
 ## 📂 HiDir — Directory Scanner
 
-> A Go-powered directory scanner to uncover hidden paths fast.
+> A Go-powered directory scanner to surface potential security issues fast.
 
 - ⚙️ Implemented in **Go**, similar to dirsearch
-- 🕵️ Dictionary-based brute forcing to scan target sites quickly
-- 🔎 Efficiently surfaces **hidden files, sensitive files and directories**
+- 🕵️ Multi-dictionary scanning to probe target sites quickly and uncover potential security issues
+- 🔎 Helps enterprises efficiently find **hidden files, sensitive files and directories** that may leak
 
 [![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-GitHub_Repo-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiDir)
 
@@ -129,7 +132,7 @@ A collection of battle-tested tools for white-hat security research — proxy co
 - ⚡ Opens **GB-scale files in milliseconds** — no more long waits
 - 🔍 **Whole-file search in seconds** — finding a needle in a haystack, instantly
 
-[![Release](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-Binary_Download-F0883E?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditorPro-Release/releases)
+[![GitHub](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Get_the_Tool-GitHub_Repo-0969DA?logo=github&logoColor=white)](https://github.com/hicode0101/HiEditorPro/releases)
 
 ---
 
@@ -153,21 +156,20 @@ A collection of battle-tested tools for white-hat security research — proxy co
 
 ## ⚠️ Disclaimer
 
-> All tools in this series are **for white-hat security research and technical exchange only. Commercial use is prohibited.**
+> All tools in this series are **for engineers' research and technical exchange only. Commercial use is prohibited.**
 
 ## 💬 Contact
 
-- 👨‍💻 White-hat alias: **犀利的远哥**
+- 👨‍💻 Alias: **犀利的远哥**
 - ✉️ WeChat: `hicode0101`
-- 💞 WeChat Official Account: **远哥说安全**
 
 If you run into any issues with the tools, feel free to reach out — I reply promptly. Feature requests are more than welcome; I'd love to try making them happen.
 
 <div align="center">
 
-| 📱 WeChat | 📢 Official Account |
-|:---:|:---:|
-| <img src="images/weixin.png" width="200" /> | <img src="images/gzh.png" width="280" /> |
+| 📱 WeChat |
+|:---:|
+| <img src="images/weixin.png" width="200" /> |
 
 </div>
 
